@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ymEqa+q5Qjp549RC8vdIEeUB012wuNM4N512ACF642i09ZvLkACx+PlYPA3YPX9oy0P7mhG0/LGaYsxk0/AmiA==",
+  "success": true,
+  "projectFilePath": "D:\\sds\\TBot_SDS\\TBot_SDS\\TBot_SDS\\TBot_SDS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wre56\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\wre56\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
