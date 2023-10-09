@@ -1,0 +1,7 @@
+D:\sds\TBot_SDS\TBot_SDS\publish\TBot_SDS.exe
+D:\sds\TBot_SDS\TBot_SDS\publish\TBot_SDS.dll
+D:\sds\TBot_SDS\TBot_SDS\publish\TBot_SDS.deps.json
+D:\sds\TBot_SDS\TBot_SDS\publish\TBot_SDS.runtimeconfig.json
+D:\sds\TBot_SDS\TBot_SDS\publish\TBot_SDS.pdb
+D:\sds\TBot_SDS\TBot_SDS\publish\Newtonsoft.Json.dll
+D:\sds\TBot_SDS\TBot_SDS\publish\Telegram.Bot.dll

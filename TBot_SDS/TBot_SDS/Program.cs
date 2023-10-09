@@ -1,9 +1,17 @@
-﻿namespace TBot_SDS
+﻿//Телеграм бот для компании: Sokolov Development Studio
+//------------------------------------------------------------------------------------------------------------------------------------------------
+namespace TBot_SDS
 {
+    //------------------------------------------------------------------------------------------------------------------------------------------------
     class Program
     {
+        //------------------------------------------------------------------------------------------------------------------------------------------------
+
         private static TelegramBotClient botClient = new TelegramBotClient("6480764306:AAHIjYepQdYxQB2pWN3vfWSI8zzn25cqdIU");
         private static CancellationTokenSource cts = new CancellationTokenSource();
+
+        //------------------------------------------------------------------------------------------------------------------------------------------------
+
         public async static Task Main(string[] args)
         {
             HundleUpdate hundleUpdate = new();
@@ -23,8 +31,13 @@
                 cancellationToken: cts.Token
             );
 
+            TimerMessageCommand timerCommand = new TimerMessageCommand();
+            await timerCommand._TimerMessageCommand(botClient, cts);
+
             await ConsoleHelper();
         }
+
+        //------------------------------------------------------------------------------------------------------------------------------------------------
 
         private async static Task ConsoleHelper()
         {
@@ -36,4 +49,5 @@
             cts.Cancel();
         }
     }
+    //------------------------------------------------------------------------------------------------------------------------------------------------
 }
